@@ -1,0 +1,11 @@
+{
+  "sql": "SELECT * FROM 'smart_home/+/status'",
+  "ruleDisabled": false,
+  "actions": [
+    {
+      "lambda": {
+        "functionArn": "arn:aws:lambda:region:account-id:function:your-function-name"
+      }
+    }
+  ]
+}
